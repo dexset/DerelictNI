@@ -7,5 +7,10 @@ private
 
 extern( System )
 {
-    alias nothrow void function() da_ 
+    alias nothrow void function( XnContext** ) da_XnInit;
+}
+
+__gshared
+{
+    da_XnInit XnInit;
 }
