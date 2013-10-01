@@ -12,15 +12,7 @@ private
     import derelict.util.loader;
     import derelict.util.exception;
     import derelict.util.system;
-    static if( Derelict_OS_Windows )
-    {
- 
-    }
-    else static if( Derelict_OS_Mac )
-    {
-
-    }
-    else static if( Derelict_OS_Posix )
+    static if( Derelict_OS_Posix )
     {
         enum libNames = "libOpenNI.so";
     }

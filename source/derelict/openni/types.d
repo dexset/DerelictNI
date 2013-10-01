@@ -1,20 +1,18 @@
+module derelict.ni.types;
 //NI
 //XnStatus
 
 alias uint XnStatus;
 
 //XnOS
+import derelict.ni.xnostypes;
+//
 
-enum XnOSSeekType
-{
-    XN_OS_SEEK_SET = 0,
-    XN_OS_SEEK_CUR,
-    XN_OS_SEEK_END
-}
 //XnTypes
 const int XN_MIN_INT32 = -2147483648;
+//
 
-alias long XnUInt64;
+alias ulong XnUInt64;
 alias uint XnUInt32;
 alias ushort XnUInt16;
 alias ubyte XnUInt8;
