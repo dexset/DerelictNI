@@ -1,0 +1,6 @@
+.*.swp
+.*.swo
+lib
+*.o
+app.d
+types

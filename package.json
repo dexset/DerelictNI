@@ -1,0 +1,14 @@
+{
+	"name": "derelict_extras-openni",
+	"description": "A dynamic binding to the OpenNI library.",
+	"homepage": "http://github.com/cdsd/DerelictNI",
+	"authors": [
+		"Anton Akzhigitov"
+	],
+
+    "targetName": "DerelictNI",
+    "targetPath": "lib",
+	"dependencies": {
+        "derelict-util": "~master"
+	}
+}
