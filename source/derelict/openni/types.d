@@ -1,3 +1,4 @@
+module derelict.ni.types;
 //NI
 //XnStatus
 
